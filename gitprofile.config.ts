@@ -106,9 +106,9 @@ const CONFIG = {
   certifications: [
     {
       name: 'Udemy Certification',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      body: '3D Animation with Autodesk Maya',
+      year: 'October 2017',
+      link: 'https://udemy-certificate.s3.amazonaws.com/image/UC-B9KBR5JL.jpg?v=1506929107000',
     },
   ],
   educations: [
