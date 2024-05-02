@@ -45,10 +45,11 @@ const CONFIG = {
     twitter: 'AmanGblue',
     mastodon: '',
     researchGate: '',
+    kaggle: 'ammugg',
     facebook: '',
     instagram: 'amangpt666',
     reddit: 'notabotboi',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '', // example: 'pewdiepie' | working on including kaggle = ammugg
     dribbble: '',
     behance: '',
     medium: '',

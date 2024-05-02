@@ -11,6 +11,7 @@ import {
   FaDev,
   FaFacebook,
   FaGlobe,
+  FaKaggle,
   FaLinkedin,
   FaMastodon,
   FaReddit,
@@ -76,9 +77,8 @@ const ListItem: React.FC<{
         {icon} {title}
       </div>
       <div
-        className={`${
-          skeleton ? 'flex-grow' : ''
-        } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
+        className={`${skeleton ? 'flex-grow' : ''
+          } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
         style={{
           wordBreak: 'break-word',
         }}
@@ -155,6 +155,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="ResearchGate:"
                   value={social.researchGate}
                   link={`https://www.researchgate.net/profile/${social.researchGate}`}
+                />
+              )}
+              {social?.kaggle && (
+                <ListItem
+                  icon={<FaKaggle />}
+                  title="Kaggle:"
+                  value={social.kaggle}
+                  link={`https://www.kaggle.com/${social.kaggle}`}
                 />
               )}
               {social?.twitter && (

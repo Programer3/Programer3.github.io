@@ -128,6 +128,11 @@ interface Social {
   researchGate?: string;
 
   /**
+   * Kaggle username
+   */
+  kaggle?: string;
+
+  /**
    * Facebook
    */
   facebook?: string;
