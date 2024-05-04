@@ -128,7 +128,7 @@ const CONFIG = {
     {
       institution: 'Management Education Research Institute (MERI), New Delhi',
       degree:
-        'Bac helor of Technology (B.Tech) - Computer Science and Engineering',
+        'Bachelor of Technology (B.Tech) - Computer Science and Engineering',
       from: '2021',
       to: '2025',
     },
