@@ -25,14 +25,22 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Programer3/Mountain_bike_HD', 'Programer3/ERP_django', 'Programer3/Bmi_finder', 'Programer3/MyHud', 'Programer3/CODSOFT', 'Programer3/Shadertoy_shaders', 'Programer3/web_scraper', 'Programer3/todo'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'Programer3/Mountain_bike_HD',
+          'Programer3/ERP_django',
+          'Programer3/Bmi_finder',
+          'Programer3/MyHud',
+          'Programer3/CODSOFT',
+          'Programer3/Shadertoy_shaders',
+          'Programer3/web_scraper',
+          'Programer3/todo',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-      ],
+      projects: [],
     },
   },
   seo: {
@@ -49,7 +57,11 @@ const CONFIG = {
     facebook: '',
     instagram: 'amangpt666',
     reddit: 'notabotboi',
-    youtube: '', // example: 'pewdiepie' | working on including kaggle = ammugg
+    threads: '',
+    pinterest: '',
+    youtube: '', // example: 'pewdiepie'
+    udemy: '',
+    freecodecamp: 'Ammug',
     dribbble: '',
     behance: '',
     medium: '',
@@ -115,21 +127,23 @@ const CONFIG = {
   educations: [
     {
       institution: 'Management Education Research Institute (MERI), New Delhi',
-      degree: 'Bac helor of Technology (B.Tech) - Computer Science and Engineering',
+      degree:
+        'Bac helor of Technology (B.Tech) - Computer Science and Engineering',
       from: '2021',
       to: '2025',
     },
     {
-      institution: 'Harcourt Butler Senior Secondary School Mandir Marg New Delhi',
+      institution:
+        'Harcourt Butler Senior Secondary School Mandir Marg New Delhi',
       degree: 'High School with PCMCS',
       from: '2018',
       to: '2020',
     },
   ],
-  publications: [
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
-  blog: { // How many articles to display. Max is 10.
+  blog: {
+    // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: 'G-G8KS9H7K45', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX

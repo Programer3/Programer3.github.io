@@ -52,8 +52,10 @@ export interface SanitizedSocial {
   instagram?: string;
   reddit?: string;
   threads?: string;
+  pinterest?: string;
   youtube?: string;
   udemy?: string;
+  freecodecamp?: string;
   dribbble?: string;
   behance?: string;
   medium?: string;

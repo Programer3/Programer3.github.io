@@ -10,10 +10,12 @@ import {
   FaBuilding,
   FaDev,
   FaFacebook,
+  FaFreeCodeCamp,
   FaGlobe,
   FaKaggle,
   FaLinkedin,
   FaMastodon,
+  FaPinterest,
   FaReddit,
   FaSkype,
   FaStackOverflow,
@@ -77,8 +79,9 @@ const ListItem: React.FC<{
         {icon} {title}
       </div>
       <div
-        className={`${skeleton ? 'flex-grow' : ''
-          } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
+        className={`${
+          skeleton ? 'flex-grow' : ''
+        } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
         style={{
           wordBreak: 'break-word',
         }}
@@ -237,6 +240,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://www.threads.net/${social.threads}`}
                 />
               )}
+              {social?.pinterest && (
+                <ListItem
+                  icon={<FaPinterest />}
+                  title="Pinterest:"
+                  value={`@${social.pinterest}`}
+                  link={`https://www.pinterest.com/${social.pinterest}`}
+                />
+              )}
               {social?.youtube && (
                 <ListItem
                   icon={<FaYoutube />}
@@ -251,6 +262,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="Udemy:"
                   value={`@${social.udemy}`}
                   link={`https://www.udemy.com/user/${social.udemy}`}
+                />
+              )}
+              {social?.freecodecamp && (
+                <ListItem
+                  icon={<FaFreeCodeCamp />}
+                  title="Freecodecamp:"
+                  value={`@${social.freecodecamp}`}
+                  link={`https://www.freecodecamp.org/${social.freecodecamp}`}
                 />
               )}
               {social?.medium && (

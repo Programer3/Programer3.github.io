@@ -153,6 +153,11 @@ interface Social {
   threads?: string;
 
   /**
+   * Pinterest
+   */
+  pinterest?: string;
+
+  /**
    * YouTube
    */
   youtube?: string;
@@ -161,6 +166,11 @@ interface Social {
    * Udemy
    */
   udemy?: string;
+
+  /**
+   * Freecodecamp
+   */
+  freecodecamp?: string;
 
   /**
    * Dribbble
