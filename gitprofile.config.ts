@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Programer3', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -100,7 +100,7 @@ const CONFIG = {
       position: 'Position',
       from: 'September 2021',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://horecamate.in',
     },
     {
       company: 'Company Name',
@@ -164,7 +164,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'Halloween',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
