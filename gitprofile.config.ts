@@ -25,7 +25,12 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'Programer3/Programer3.github.io',
+          'Programer3/Mountain_bike_HD',
+          'Programer3/ERP_django',
+          'Programer3/runscripts_runpod',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
