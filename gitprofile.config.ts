@@ -81,7 +81,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://docs.google.com/document/d/1TqbNt0HJB6e1QeU5qfs4XDefipZDUQMh/edit?usp=sharing&ouid=105377702877732249493&rtpof=true&sd=true', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1QLBW_mb2H__A3PHriIVSmRcdZDy0iSyo/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Web Development',
